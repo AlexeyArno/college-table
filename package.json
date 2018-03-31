@@ -1,0 +1,31 @@
+{
+  "name": "awesome",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "fast-html-parser": "^1.0.1",
+    "htmlparser": "^1.7.7",
+    "material-ui": "^1.0.0-beta.39",
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.4",
+    "react-native-html-parser": "0.0.5",
+    "react-native-loader": "^1.2.1",
+    "react-native-material-ui": "^1.22.0",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "^1.5.8",
+    "xmldom": "^0.1.27"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
